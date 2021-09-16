@@ -3224,3 +3224,63 @@ Traceback (most recent call last):
   File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
     raise ConnectionError(self._error_message(e))
 redis.exceptions.ConnectionError: Error 61 connecting to localhost:11000. Connection refused.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/Users/greggy/thanos/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
