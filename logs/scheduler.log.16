@@ -1,0 +1,17 @@
+2021-09-16 09:20:41,978 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for estate.site
+2021-09-16 09:20:42,142 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for estate.site
+2021-09-16 09:20:42,645 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for estate.site
+2021-09-16 09:20:42,757 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for estate.site
+2021-09-16 09:20:43,293 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for estate.site
+2021-09-16 09:20:43,437 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library.test
+2021-09-16 09:20:43,814 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library.test
+2021-09-16 09:20:43,929 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library.test
+2021-09-16 09:20:44,290 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library.test
+2021-09-16 09:20:44,400 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library.test
+2021-09-16 09:20:45,324 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library.test
+2021-09-16 09:20:45,437 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test
+2021-09-16 09:20:46,096 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test
+2021-09-16 09:20:46,267 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library.test
+2021-09-16 09:20:48,476 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library.test
+2021-09-16 09:20:48,834 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library.test
+2021-09-16 09:20:50,852 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library.test

@@ -1,0 +1,33 @@
+2021-09-16 15:23:47,356 ERROR frappe New Exception collected with id: 2021-09-16 15:23:46.938764-127.0.0.1-1cb
+Site: estate.site
+Form Dict: {'doctype': 'Rent', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-16 15:25:23,709 ERROR frappe New Exception collected with id: 2021-09-16 15:25:23.431814-127.0.0.1-915
+Site: estate.site
+Form Dict: {'doctype': 'Rent', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-16 15:50:06,305 ERROR frappe New Exception collected with id: 2021-09-16 15:50:05.983022-127.0.0.1-0ab
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"__run_link_triggers":1,"house":"House00001","tenant":"Busayo","agent":"Chinedum","rent_fee":800000}', 'cmd': 'frappe.client.save'}
+2021-09-16 15:56:37,252 ERROR frappe New Exception collected with id: 2021-09-16 15:56:37.033990-127.0.0.1-ab9
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"__run_link_triggers":1,"houses":"House00001","tenant":"Busayo","agent":"Chinedum","rent_fee":1000000}', 'cmd': 'frappe.client.save'}
+2021-09-16 15:58:00,050 ERROR frappe New Exception collected with id: 2021-09-16 15:58:00.039470-127.0.0.1-0fd
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"houses":"House00001","agent":"Chinedum","tenant":"Busayo","rent_fee":1000000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-16 15:58:35,102 ERROR frappe New Exception collected with id: 2021-09-16 15:58:34.890962-127.0.0.1-a7a
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"houses":"House00001","agent":"Chinedum","tenant":"Busayo","rent_fee":1000000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-16 15:58:58,124 ERROR frappe New Exception collected with id: 2021-09-16 15:58:58.118231-127.0.0.1-ef8
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"houses":"House00001","agent":"Chinedum","tenant":"Busayo","rent_fee":1000000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-16 15:59:22,109 ERROR frappe New Exception collected with id: 2021-09-16 15:59:21.890167-127.0.0.1-56c
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"houses":"House00001","agent":"Chinedum","tenant":"Busayo","rent_fee":1000000}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-16 16:59:16,003 ERROR frappe New Exception collected with id: 2021-09-16 16:59:15.776855-127.0.0.1-ec0
+Site: estate.site
+Form Dict: {'doc': '{"name":"RNT00005","owner":"Administrator","creation":"2021-09-16 16:54:52.569846","modified":"2021-09-16 16:58:03.429089","modified_by":"Administrator","idx":0,"docstatus":0,"house":"House00001","tenant":"Busayo","type_of_tenant":"New","agent":"Chinedum","rent_fee":9000000,"payment_method":"Bank Transfer","paid_status":0,"agent_fee":120000,"doctype":"Rent","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-16 16:59:32,511 ERROR frappe New Exception collected with id: 2021-09-16 16:59:32.229830-127.0.0.1-e06
+Site: estate.site
+Form Dict: {'doc': '{"name":"RNT00005","owner":"Administrator","creation":"2021-09-16 16:54:52.569846","modified":"2021-09-16 16:58:03.429089","modified_by":"Administrator","idx":0,"docstatus":0,"house":"House00001","tenant":"Busayo","type_of_tenant":"New","agent":"Chinedum","rent_fee":9000000,"payment_method":"Bank Transfer","paid_status":0,"agent_fee":120000,"doctype":"Rent","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-16 17:02:08,736 ERROR frappe New Exception collected with id: 2021-09-16 17:02:08.485557-127.0.0.1-116
+Site: estate.site
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Rent","name":"new-rent-1","__islocal":1,"__unsaved":1,"owner":"Administrator","type_of_tenant":"New","payment_method":"Bank Transfer","paid_status":0,"__run_link_triggers":1,"house":"House00001","tenant":"Busayo","agent":"Chinedum","rent_fee":900000}', 'cmd': 'frappe.client.save'}

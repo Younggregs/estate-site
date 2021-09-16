@@ -1,0 +1,227 @@
+2021-09-13 23:49:34,273 DEBUG cd frappe-bench && /usr/local/bin/virtualenv -q env -p python3
+2021-09-13 23:49:36,896 LOG Getting app frappe
+2021-09-13 23:49:36,896 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2021-09-13 23:50:13,507 LOG installing frappe
+2021-09-13 23:50:13,508 DEBUG frappe-bench/env/bin/python -m pip install -q -U -e frappe-bench/apps/frappe 
+2021-09-13 23:55:57,987 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-09-14 00:00:50,265 WARNING cd frappe-bench/apps/frappe && yarn install executed with exit code 1
+2021-09-14 00:00:50,282 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-09-14 00:03:50,170 WARNING cd frappe-bench/apps/frappe && yarn install executed with exit code 1
+2021-09-14 00:03:50,175 DEBUG cd frappe-bench && bench build
+2021-09-14 00:03:50,946 INFO /usr/local/bin/bench build
+2021-09-14 00:05:09,170 LOG setting up backups
+2021-09-14 00:05:14,368 INFO Bench frappe-bench initialized
+2021-09-14 00:13:42,012 INFO /usr/local/bin/bench start
+2021-09-14 00:13:45,553 INFO /usr/local/bin/bench serve --port 8000
+2021-09-14 00:13:45,553 INFO /usr/local/bin/bench schedule
+2021-09-14 00:13:45,588 INFO /usr/local/bin/bench worker --queue long
+2021-09-14 00:13:45,590 INFO /usr/local/bin/bench worker --queue short
+2021-09-14 00:13:45,714 INFO /usr/local/bin/bench worker --queue default
+2021-09-14 00:13:45,754 INFO /usr/local/bin/bench watch
+2021-09-14 00:15:52,079 INFO /usr/local/bin/bench find
+2021-09-14 00:15:57,438 WARNING /usr/local/bin/bench find executed with exit code 1
+2021-09-14 00:16:03,351 INFO /usr/local/bin/bench find .
+2021-09-14 00:16:13,713 INFO /usr/local/bin/bench new-app library_management
+2021-09-14 00:16:15,679 LOG creating new app library_management
+2021-09-14 00:16:49,025 LOG installing library_management
+2021-09-14 00:16:49,029 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/library_management 
+2021-09-14 00:16:55,745 DEBUG bench build --app library_management
+2021-09-14 00:16:56,147 INFO /usr/local/bin/bench build --app library_management
+2021-09-14 06:00:01,868 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-14 11:14:11,432 INFO /usr/local/bin/bench start
+2021-09-14 11:14:13,702 INFO /usr/local/bin/bench watch
+2021-09-14 11:14:13,733 INFO /usr/local/bin/bench worker --queue default
+2021-09-14 11:14:13,747 INFO /usr/local/bin/bench serve --port 8000
+2021-09-14 11:14:13,820 INFO /usr/local/bin/bench worker --queue short
+2021-09-14 11:14:13,822 INFO /usr/local/bin/bench schedule
+2021-09-14 11:14:13,867 INFO /usr/local/bin/bench worker --queue long
+2021-09-14 11:31:38,143 INFO /usr/local/bin/bench new-site library.test
+2021-09-14 11:35:26,362 INFO /usr/local/bin/bench new-site library.test
+2021-09-14 11:36:27,935 INFO /usr/local/bin/bench new-site library.test
+2021-09-14 11:38:08,740 INFO /usr/local/bin/bench new-site library.test
+2021-09-14 11:50:27,003 INFO /usr/local/bin/bench new-site library.test
+2021-09-14 11:53:31,002 INFO /usr/local/bin/bench new-site library.test
+2021-09-14 11:56:57,528 INFO /usr/local/bin/bench start
+2021-09-14 11:56:59,890 INFO /usr/local/bin/bench worker --queue long
+2021-09-14 11:56:59,902 INFO /usr/local/bin/bench worker --queue default
+2021-09-14 11:56:59,904 INFO /usr/local/bin/bench watch
+2021-09-14 11:56:59,910 INFO /usr/local/bin/bench serve --port 8000
+2021-09-14 11:57:00,026 INFO /usr/local/bin/bench schedule
+2021-09-14 11:57:00,028 INFO /usr/local/bin/bench worker --queue short
+2021-09-14 12:00:01,141 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-14 18:00:02,058 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-14 20:35:20,242 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 03:37:05,389 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:04:15,849 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:04:38,935 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:08:21,800 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:08:35,900 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:11:34,333 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:12:57,843 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:18:02,271 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:18:16,882 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:24:13,157 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:24:36,808 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:24:45,239 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:24:56,634 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:26:02,715 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 04:32:20,667 INFO /usr/local/bin/bench start
+2021-09-15 04:32:22,831 INFO /usr/local/bin/bench watch
+2021-09-15 04:32:22,837 INFO /usr/local/bin/bench worker --queue long
+2021-09-15 04:32:22,848 INFO /usr/local/bin/bench worker --queue short
+2021-09-15 04:32:22,851 INFO /usr/local/bin/bench schedule
+2021-09-15 04:32:22,853 INFO /usr/local/bin/bench worker --queue default
+2021-09-15 04:32:22,853 INFO /usr/local/bin/bench serve --port 8000
+2021-09-15 04:32:24,826 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 06:00:01,841 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-15 07:17:46,338 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 07:18:31,034 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 07:18:45,225 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 07:23:19,744 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 07:24:15,873 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 09:02:50,549 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 10:30:02,789 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 10:34:48,414 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 10:39:21,783 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 10:39:51,931 INFO /usr/local/bin/bench start
+2021-09-15 10:39:53,721 INFO /usr/local/bin/bench worker --queue default
+2021-09-15 10:39:53,735 INFO /usr/local/bin/bench schedule
+2021-09-15 10:39:53,739 INFO /usr/local/bin/bench serve --port 8000
+2021-09-15 10:39:53,757 INFO /usr/local/bin/bench watch
+2021-09-15 10:39:53,851 INFO /usr/local/bin/bench worker --queue long
+2021-09-15 10:39:53,877 INFO /usr/local/bin/bench worker --queue short
+2021-09-15 11:02:58,735 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 12:00:01,552 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-15 12:07:31,528 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 12:07:45,278 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 15:24:17,313 INFO /usr/local/bin/bench new-site mysite.local
+2021-09-15 15:30:36,593 INFO /usr/local/bin/bench start
+2021-09-15 15:30:38,717 INFO /usr/local/bin/bench worker --queue long
+2021-09-15 15:30:38,773 INFO /usr/local/bin/bench watch
+2021-09-15 15:30:38,808 INFO /usr/local/bin/bench serve --port 8000
+2021-09-15 15:30:38,872 INFO /usr/local/bin/bench worker --queue short
+2021-09-15 15:30:38,907 INFO /usr/local/bin/bench worker --queue default
+2021-09-15 15:30:38,935 INFO /usr/local/bin/bench schedule
+2021-09-15 15:46:38,353 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2021-09-15 15:47:16,393 INFO /usr/local/bin/bench --site library.test install-app library_management
+2021-09-15 15:48:36,557 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 15:50:23,501 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2021-09-15 15:51:38,117 INFO /usr/local/bin/bench --site library.test install-app library_management
+2021-09-15 16:33:48,706 INFO /usr/local/bin/bench start
+2021-09-15 16:33:50,813 INFO /usr/local/bin/bench watch
+2021-09-15 16:33:50,842 INFO /usr/local/bin/bench serve --port 8000
+2021-09-15 16:33:50,887 INFO /usr/local/bin/bench worker --queue short
+2021-09-15 16:33:50,891 INFO /usr/local/bin/bench schedule
+2021-09-15 16:33:50,895 INFO /usr/local/bin/bench worker --queue long
+2021-09-15 16:33:50,992 INFO /usr/local/bin/bench worker --queue default
+2021-09-15 16:35:07,279 INFO /usr/local/bin/bench new-site library.test
+2021-09-15 16:37:23,361 INFO /usr/local/bin/bench --site library.test install-app library_management
+2021-09-15 16:37:34,169 INFO /usr/local/bin/bench --site library.test list-apps
+2021-09-15 16:40:45,377 INFO /usr/local/bin/bench --site library.test console
+2021-09-15 16:41:11,736 INFO /usr/local/bin/bench --site library.test --help
+2021-09-15 16:43:24,042 INFO /usr/local/bin/bench set-config -g developer_mode true
+2021-09-15 16:43:37,616 INFO /usr/local/bin/bench start
+2021-09-15 16:43:39,601 INFO /usr/local/bin/bench serve --port 8000
+2021-09-15 16:43:39,649 INFO /usr/local/bin/bench worker --queue short
+2021-09-15 16:43:39,677 INFO /usr/local/bin/bench worker --queue long
+2021-09-15 16:43:39,684 INFO /usr/local/bin/bench worker --queue default
+2021-09-15 16:43:39,688 INFO /usr/local/bin/bench schedule
+2021-09-15 16:43:39,702 INFO /usr/local/bin/bench watch
+2021-09-15 16:57:05,377 INFO /usr/local/bin/bench --site library.test mariadb
+2021-09-15 18:00:02,078 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-16 04:35:01,555 INFO /usr/local/bin/bench start
+2021-09-16 04:35:03,481 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 04:35:03,491 INFO /usr/local/bin/bench schedule
+2021-09-16 04:35:03,496 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 04:35:03,512 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 04:35:03,588 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 04:35:03,610 INFO /usr/local/bin/bench watch
+2021-09-16 06:00:01,876 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-16 06:00:05,713 INFO /usr/local/bin/bench new-app estate_app
+2021-09-16 06:00:06,369 LOG creating new app estate_app
+2021-09-16 06:00:44,091 LOG installing estate_app
+2021-09-16 06:00:44,095 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/estate_app 
+2021-09-16 06:00:52,257 WARNING dev-requirements.txt not found in estate_app
+2021-09-16 06:00:52,259 DEBUG bench build --app estate_app
+2021-09-16 06:00:52,765 INFO /usr/local/bin/bench build --app estate_app
+2021-09-16 06:02:56,724 INFO /usr/local/bin/bench new-site estate.site
+2021-09-16 06:03:06,722 INFO /usr/local/bin/bench start
+2021-09-16 06:03:08,636 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 06:03:08,708 INFO /usr/local/bin/bench watch
+2021-09-16 06:03:08,855 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 06:03:08,864 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 06:03:08,893 INFO /usr/local/bin/bench schedule
+2021-09-16 06:03:08,908 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 06:14:59,068 INFO /usr/local/bin/bench --site estate.site add-to-hosts
+2021-09-16 06:16:06,852 INFO /usr/local/bin/bench --site estate.site install-app estate_app
+2021-09-16 08:26:56,479 INFO /usr/local/bin/bench start
+2021-09-16 08:26:58,394 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 08:26:58,446 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 08:26:58,477 INFO /usr/local/bin/bench schedule
+2021-09-16 08:26:58,502 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 08:26:58,641 INFO /usr/local/bin/bench watch
+2021-09-16 08:26:58,673 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 13:31:34,063 INFO /usr/local/bin/bench start
+2021-09-16 13:31:36,256 INFO /usr/local/bin/bench schedule
+2021-09-16 13:31:36,320 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 13:31:36,351 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 13:31:36,363 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 13:31:36,400 INFO /usr/local/bin/bench watch
+2021-09-16 13:31:36,415 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 14:47:07,388 INFO /usr/local/bin/bench set-config -g developer_mode false
+2021-09-16 14:47:09,640 INFO /usr/local/bin/bench start
+2021-09-16 14:47:11,297 INFO /usr/local/bin/bench watch
+2021-09-16 14:47:11,303 INFO /usr/local/bin/bench schedule
+2021-09-16 14:47:11,312 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 14:47:11,314 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 14:47:11,339 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 14:47:11,443 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 14:47:49,625 INFO /usr/local/bin/bench set-config -g developer_mode true
+2021-09-16 14:47:51,619 INFO /usr/local/bin/bench start
+2021-09-16 14:47:53,270 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 14:47:53,353 INFO /usr/local/bin/bench watch
+2021-09-16 14:47:53,374 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 14:47:53,365 INFO /usr/local/bin/bench schedule
+2021-09-16 14:47:53,394 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 14:47:53,424 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 15:41:46,977 INFO /usr/local/bin/bench --site library.test mariadb
+2021-09-16 15:41:57,607 INFO /usr/local/bin/bench --site estate.site mariadb
+2021-09-16 15:44:27,878 INFO /usr/local/bin/bench --site estate.site mariadb
+2021-09-16 16:00:18,303 INFO /usr/local/bin/bench start
+2021-09-16 16:00:20,066 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 16:00:20,067 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 16:00:20,134 INFO /usr/local/bin/bench schedule
+2021-09-16 16:00:20,138 INFO /usr/local/bin/bench watch
+2021-09-16 16:00:20,143 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 16:00:20,159 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 16:39:54,038 INFO /usr/local/bin/bench start
+2021-09-16 16:39:56,250 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 16:39:56,265 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 16:39:56,274 INFO /usr/local/bin/bench schedule
+2021-09-16 16:39:56,277 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 16:39:56,287 INFO /usr/local/bin/bench watch
+2021-09-16 16:39:56,290 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 18:00:01,130 INFO /usr/local/bin/bench --verbose --site all backup
+2021-09-16 18:08:33,279 INFO /usr/local/bin/bench start
+2021-09-16 18:08:35,369 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 18:08:35,375 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 18:08:35,393 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 18:08:35,423 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 18:08:35,494 INFO /usr/local/bin/bench schedule
+2021-09-16 18:08:35,500 INFO /usr/local/bin/bench watch
+2021-09-16 18:18:15,538 INFO /usr/local/bin/bench --site estate.site mariadb
+2021-09-16 20:41:12,806 INFO /usr/local/bin/bench start
+2021-09-16 20:41:15,003 INFO /usr/local/bin/bench watch
+2021-09-16 20:41:15,054 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 20:41:15,059 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 20:41:15,065 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 20:41:15,127 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 20:41:15,148 INFO /usr/local/bin/bench schedule
+2021-09-16 22:59:16,883 INFO /usr/local/bin/bench start
+2021-09-16 22:59:19,144 INFO /usr/local/bin/bench serve --port 8000
+2021-09-16 22:59:19,173 INFO /usr/local/bin/bench worker --queue long
+2021-09-16 22:59:19,180 INFO /usr/local/bin/bench worker --queue default
+2021-09-16 22:59:19,181 INFO /usr/local/bin/bench schedule
+2021-09-16 22:59:19,215 INFO /usr/local/bin/bench watch
+2021-09-16 22:59:19,330 INFO /usr/local/bin/bench worker --queue short
+2021-09-16 23:34:25,981 INFO /usr/local/bin/bench --site estate.site mariadb
